@@ -242,20 +242,26 @@ h1 {
 
 .research-strip {
   display:flex;
+  flex-wrap:wrap;
   align-items:center;
   justify-content:space-between;
+  gap:10px 14px;
   padding:16px 0;
   border-block:1px solid var(--rule);
-  font-size:11px;
+  font-size:10px;
   color:var(--muted);
   text-transform:uppercase;
-  letter-spacing:1.5px;
+  letter-spacing:.7px;
+}
+
+.research-strip span {
+  white-space:nowrap;
 }
 
 .research-strip span+span:before {
-  content:'+';
+  content:'·';
   color:var(--accent);
-  margin-right:42px;
+  margin-right:14px;
 }
 
 section {
@@ -851,11 +857,10 @@ footer {
     font-size:25px;
   }
   .research-strip {
-    font-size:9px;
-    letter-spacing:1px;
+    justify-content:flex-start;
   }
   .research-strip span+span:before {
-    margin-right:20px;
+    content:none;
   }
   .featured-copy {
     padding:24px;
@@ -964,8 +969,8 @@ footer {
   .research-strip {
     flex-wrap:wrap;
     justify-content:flex-start;
-    gap:8px 19px;
-    font-size:8px;
+    gap:10px 19px;
+    font-size:10px;
     letter-spacing:.7px;
   }
   .research-strip span+span:before {
