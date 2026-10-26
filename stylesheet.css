@@ -1148,3 +1148,21 @@ footer {
     border-top:1px solid #ccc;
   }
 }
+
+.pubs-group {
+  font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  font-size:11px;
+  letter-spacing:1.7px;
+  text-transform:uppercase;
+  font-weight:500;
+  color:var(--muted);
+  margin:0 0 6px;
+}
+
+.pubs + .pubs-group,.publication-archive + .pubs-group {
+  margin-top:34px;
+}
+
+.pub .thumb.wide {
+  aspect-ratio:16/9;
+}

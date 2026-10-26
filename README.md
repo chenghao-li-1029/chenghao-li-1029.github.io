@@ -12,7 +12,7 @@ Open http://127.0.0.1:8765. No build or dependencies are required.
 
 ## Updating content
 
-- `index.html`: introduction, selected work, experience, publications, education.
+- `index.html`: introduction, selected work, experience, publications & tech blog, education.
 - `stylesheet.css`: responsive layouts, system dark mode, reduced-motion and print styles.
 - `data/resume.pdf`: CV download (currently the October 9, 2026 CV).
 - `data/ShenghaoLi-bio.txt`: short biography; the historical filename is retained for existing links.
