@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chenghao (Cade) Li — Research Lead at Pika</title>
   <meta name="author" content="Chenghao Li">
-  <meta name="description" content="Chenghao (Cade) Li is Research Lead at Pika, working on video foundation models, post-training, and real-time audio-driven generation.">
+  <meta name="description" content="Chenghao (Cade) Li is Research Lead at Pika, working on video foundation models, post-training, and real-time audio-driven generation. Led post-training of the open-weights Pika H3 Flex.">
   <meta name="color-scheme" content="light dark">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Chenghao (Cade) Li — Research Lead at Pika">
@@ -40,10 +40,14 @@
 <section id="work">
  <div class="section-heading"><div><p class="eyebrow">01 / Research</p><h2>Selected work</h2></div><span class="section-note">Models &amp; systems at Pika</span></div>
  <article class="featured-project">
-  <a class="featured-image" href="https://pika.art/blog/introducing-real-time-video-chat" aria-label="Read about PikaStream"><img src="images/featured/pikastream.webp" width="1200" height="630" alt="PikaStream real-time video conversation demonstration" loading="lazy"><span class="image-label">Real-time video generation</span></a>
-  <div class="featured-copy"><p class="project-kicker">Pika / Research lead</p><h3>PikaStream</h3><p class="project-deck">Real-time, audio-driven<br>video generation for AI agents.</p><p>Led PikaStream 1.0 across model design, pretraining, SFT, RLHF, and Self-Forcing distillation for real-time, audio-driven video generation.</p><a class="text-link" href="https://pika.art/blog/introducing-real-time-video-chat">Read the research <span aria-hidden="true">↗</span></a></div>
+  <a class="featured-image" href="https://pika.art/blog/pika-h3-flex-research" aria-label="Read the Pika H3 Flex technical deep dive"><img src="images/featured/h3flex.webp" width="1200" height="630" alt="Pika H3 Flex key art" loading="lazy"><span class="image-label">Open-weights omni video model</span></a>
+  <div class="featured-copy"><p class="project-kicker">Pika / Post-training lead</p><h3>Pika H3 Flex</h3><p class="project-deck">Open-weights video and audio<br>generation in six denoising steps.</p><p>Led post-training of MiniMax H3 into Pika H3 Flex: aesthetic-focused SFT, six-step distribution matching distillation, and post-distillation reward learning with ReFL and DPO. The result cuts denoising steps 8.3× while improving visual and audio quality, with text-, image-, and reference-conditioned generation and editing, single-step upsampling to 4K, and five editable audio stems. Ranked #7 overall and first among open-weights models on Design Arena’s text-to-video leaderboard at launch.</p><p class="project-links"><a class="text-link" href="https://pika.art/blog/pika-h3-flex-research">Read the research <span aria-hidden="true">↗</span></a> <a class="text-link" href="https://huggingface.co/Pika-Labs/Pika-H3-Flex">Weights <span aria-hidden="true">↗</span></a> <a class="text-link" href="https://github.com/Pika-Labs/Pika-H3-Flex">Code <span aria-hidden="true">↗</span></a></p></div>
  </article>
  <div class="project-grid">
+  <article class="project-card">
+   <a class="model-image" href="https://pika.art/blog/introducing-real-time-video-chat" aria-label="Read about PikaStream"><img src="images/featured/pikastream.webp" alt="PikaStream real-time video conversation demonstration" loading="lazy" width="1200" height="630"><span class="image-label">Real-time video generation</span></a>
+   <div class="card-copy"><p class="project-kicker">Real-time generation / Research lead</p><h3>PikaStream</h3><p>Led PikaStream 1.0 across model design, pretraining, SFT, RLHF, and Self-Forcing distillation for real-time, audio-driven video generation for AI agents.</p><a class="text-link" href="https://pika.art/blog/introducing-real-time-video-chat">Read the research <span aria-hidden="true">↗</span></a></div>
+  </article>
   <article class="project-card">
    <div class="audio-art" role="img" aria-label="Illustration of audio-driven expression: a sound waveform becoming a face">
     <span class="art-caption">SOUND → EXPRESSION</span>
@@ -62,6 +66,7 @@
 <section id="news" class="updates">
  <p class="eyebrow">Recent updates</p>
  <ul>
+  <li><time datetime="2026-10">Oct 2026</time><span><a href="https://pika.art/blog/pika-h3-flex-research">Pika H3 Flex</a> released — open-weights omni video model, 8.3× fewer denoising steps than its teacher and the top open-weights model on Design Arena’s text-to-video leaderboard at launch. <a href="https://huggingface.co/Pika-Labs/Pika-H3-Flex">Weights</a> · <a href="https://github.com/Pika-Labs/Pika-H3-Flex">code</a>.</span></li>
   <li><time datetime="2026-08">Aug 2026</time><span><a href="https://pika.art/blog/pika-speech">Pika Speech</a> released — expressive text-to-speech with voice cloning and controllable delivery.</span></li>
   <li><time datetime="2026-04">Apr 2026</time><span><a href="https://pika.art/blog/introducing-real-time-video-chat">PikaStream 1.0</a> released — real-time video chat for AI agents.</span></li>
   <!-- Pika 2.5 release month: Pika's App Store version 1.11.8 notes, November 21, 2025.
@@ -83,6 +88,22 @@
  <div class="section-heading"><div><p class="eyebrow">03 / Writing</p><h2>Selected publications &amp; tech blog</h2></div><a class="text-link" href="https://scholar.google.com/citations?user=Ww3F7TgAAAAJ">Google Scholar ↗</a></div>
  <p class="section-intro">My earlier research explored local features, neural scene representations, and real-time robotic perception. These publications appear under the name <strong>Shenghao Li</strong>. <span class="muted">* Corresponding author.</span> Recent work at Pika is written up on the company blog.</p>
  <h3 class="pubs-group">Tech blog</h3><ul class="pubs"><li class="pub highlight">
+        <div class="thumb wide">
+          <img src="images/thumbs/h3flex.webp" width="480" height="252" loading="lazy" alt="Pika H3 Flex">
+        </div>
+        <div>
+          <span class="title"><a href="https://pika.art/blog/pika-h3-flex-research">Pika H3 Flex Technical Deep Dive: Post-Training H3 to Six-NFE Omni-Generator</a></span>
+          <div class="authors">Pika Research</div>
+          <div class="venue">Pika Blog, Oct 2026</div>
+          <div class="actions">
+            <a href="https://pika.art/blog/pika-h3-flex-research">post</a>
+            <a href="https://huggingface.co/Pika-Labs/Pika-H3-Flex">weights</a>
+            <a href="https://github.com/Pika-Labs/Pika-H3-Flex">code</a>
+          </div>
+          <p class="abstract">An open-weights omni video model post-trained from MiniMax H3 with aesthetic-focused SFT, six-step distribution matching distillation, and post-distillation ReFL and DPO. Generates synchronized video and stereo audio of up to 15 seconds in six denoising steps, with single-step upsampling to 4K and five editable audio stems from source separation.</p>
+        </div>
+      </li>
+<li class="pub highlight">
         <div class="thumb wide">
           <img src="images/thumbs/pika-speech.webp" width="480" height="252" loading="lazy" alt="Pika Speech text-to-speech">
         </div>

@@ -366,9 +366,15 @@ section {
 
 .project-grid {
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:repeat(3,1fr);
   gap:24px;
   margin-top:24px;
+}
+
+.project-links {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 22px;
 }
 
 .project-card {
@@ -841,6 +847,12 @@ footer {
 }
 
 @media(max-width:900px) {
+  .project-grid {
+    grid-template-columns:1fr 1fr;
+  }
+  .project-card:last-child:nth-child(odd) {
+    grid-column:1 / -1;
+  }
   .intro {
     grid-template-columns:minmax(0,1fr) 200px;
     gap:40px;
